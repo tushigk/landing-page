@@ -2,7 +2,7 @@ import { siteUrl } from "@/config/site";
 import { HttpRequest } from "@/utils/request";
 
 const appHttpRequest = new HttpRequest(null, `${siteUrl}/blogs`);
-
+ 
 export type BlogListItem = {
   id: string;
   title: string;
